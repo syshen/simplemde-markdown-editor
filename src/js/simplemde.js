@@ -1490,6 +1490,7 @@ SimpleMDE.prototype.render = function(el) {
 		lineNumbers: false,
 		autofocus: (options.autofocus === true) ? true : false,
 		extraKeys: keyMaps,
+    hmdHideToken: "(profile-1)",
 		lineWrapping: (options.lineWrapping === false) ? false : true,
 		allowDropFileTypes: ["text/plain"],
 		placeholder: options.placeholder || el.getAttribute("placeholder") || "",
